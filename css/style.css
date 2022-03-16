@@ -128,5 +128,10 @@ img{
         flex-direction: column;
         margin-top: 5em;
     }
+
+    .vertical-card{
+        align-items: center;
+        justify-content: center;
+    }
 }
 
