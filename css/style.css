@@ -72,6 +72,7 @@ body{
     margin: 2em;
     box-shadow: 2px 2px 42px -2px rgba(0,0,0,0.75);
     border-top: 4px solid  hsl(0, 78%, 62%);
+    border-radius: 1em;
     background-color: hsl(0, 0%, 98%);
 }
 
@@ -86,6 +87,7 @@ body{
      margin: 2em;
      box-shadow: 2px 2px 42px -2px rgba(0,0,0,0.75);
     border-top: 4px solid hsl(34, 97%, 64%);
+    border-radius: 1em;
     background-color: hsl(0, 0%, 98%);
 }
 
@@ -100,6 +102,7 @@ body{
     padding: 2em;
     box-shadow: 2px 2px 42px -2px rgba(0,0,0,0.75);
     border-top: 4px solid hsl(180, 62%, 55%);
+    border-radius: 1em;
     background-color: hsl(0, 0%, 98%);
     
 }
@@ -114,6 +117,7 @@ body{
     padding: 2em;
     box-shadow: 2px 2px 42px -2px rgba(0,0,0,0.75);
     border-top: 4px solid hsl(212, 86%, 64%);
+    border-radius: 1em;
         background-color: hsl(0, 0%, 98%);
 }
 
