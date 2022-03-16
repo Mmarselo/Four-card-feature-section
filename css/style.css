@@ -1,0 +1,132 @@
+@import url(https://fonts.google.com/specimen/Poppins);
+
+*{
+    box-sizing: border-box;
+     font-family: 'Poppins',sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.texto{
+   text-align: center;
+  
+}
+
+.titulo_um{
+    font-size: 32px;
+    font-weight: 400;
+    color: hsl(229, 6%, 66%);
+}
+
+
+
+.titulo_dois{
+    font-size: 32px;
+    font-weight: 600;
+    color: hsl(0, 0%, 0%);
+}
+
+.texto-descricao{
+    font-size: 18px;
+    font-weight: 200;
+    color: hsl(229, 6%, 66%);
+}
+
+
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    background-color: hsl(0, 0%, 98%);
+
+}
+
+.card{
+    display: flex;
+    width: auto;
+}
+
+.vertical-card{
+    display: flex;
+    flex-direction: column;
+     width: auto;
+  
+}
+
+
+.card-vertical_um{
+      display: flex;
+    flex-direction: column;
+    max-width: 375px;
+   width: 90%;
+    text-align: start;
+    padding: 2em;
+    margin: 2em;
+    box-shadow: 2px 2px 42px -2px rgba(0,0,0,0.75);
+    border-top: 4px solid  hsl(0, 78%, 62%);
+    background-color: hsl(0, 0%, 98%);
+}
+
+.card-vertical_dois{
+    
+    display: flex;
+    flex-direction: column;
+    max-width: 375px;
+    width: 90%;
+    text-align: start;
+    padding: 2em;
+     margin: 2em;
+     box-shadow: 2px 2px 42px -2px rgba(0,0,0,0.75);
+    border-top: 4px solid hsl(34, 97%, 64%);
+    background-color: hsl(0, 0%, 98%);
+}
+
+
+.card-horizontal_um{
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    max-width: 375px;
+    width: 90%;
+    text-align: start;
+    padding: 2em;
+    box-shadow: 2px 2px 42px -2px rgba(0,0,0,0.75);
+    border-top: 4px solid hsl(180, 62%, 55%);
+    background-color: hsl(0, 0%, 98%);
+    
+}
+
+.card-horizontal_dois{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    max-width: 375px;
+    width: 90%;
+    text-align: start;
+    padding: 2em;
+    box-shadow: 2px 2px 42px -2px rgba(0,0,0,0.75);
+    border-top: 4px solid hsl(212, 86%, 64%);
+        background-color: hsl(0, 0%, 98%);
+}
+
+img{
+    width: 6em;
+    align-self: flex-end;
+  
+}
+
+@media(max-width:1190px){
+    .card{
+        flex-direction: column;
+        margin-top: 5em;
+    }
+}
+
